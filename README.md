@@ -4,9 +4,10 @@ A Homebrew tap. One cask in it.
 
 ## Redline
 
-Review mode for local markdown — it snapshots the file itself, diffs the current
-text against the version you last read, and marks the paragraphs that moved. No git
-commits, no edit mode, nothing written next to your file.
+A markdown reader with a memory. It renders a `.md` file off your disk the way you
+expect, and because it snapshots every version it has shown you, it can also diff the
+current text against the one you last read and mark the paragraphs that moved. No git
+commits, and nothing written next to your file.
 
 ```
 brew install --cask tuanchauict/tap/redline

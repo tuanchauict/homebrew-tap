@@ -4,7 +4,7 @@ cask "redline" do
 
   url "https://dl.iamtuna.org/redline/Redline-#{version}-universal.dmg"
   name "Redline"
-  desc "Review mode for local markdown"
+  desc "Markdown reader that marks what changed since you last read"
   homepage "https://redline.pages.dev/"
 
   depends_on macos: ">= :big_sur"
