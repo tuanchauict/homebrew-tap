@@ -1,6 +1,6 @@
 cask "redline" do
-  version "0.2.0"
-  sha256 "4573675aaf1cb6941a90eaad9c1f2244b12c12319b4cae404f0842ad13c7887e"
+  version "0.3.0"
+  sha256 "f2a5ed67cf906f2d8936a1732563b4d30b06ca69aad39eeea25e7e0c087e606b"
 
   url "https://dl.iamtuna.org/redline/Redline-#{version}-universal.dmg"
   name "Redline"
