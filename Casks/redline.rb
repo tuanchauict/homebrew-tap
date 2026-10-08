@@ -1,8 +1,8 @@
 cask "redline" do
-  version "0.5.0"
-  sha256 "d0328ee3b2c6951d2ce2f8247025e3fa576b4e9c3d0494c28f96411a2fde0fb1"
+  version "0.6.0"
+  sha256 "753cc43c164b20c0ac8eeacc92cf61e609842533f3e0cb1819ab5c659a7138de"
 
-  url "https://dl.iamtuna.org/redline/Redline-#{version}-universal.dmg"
+  url "https://github.com/tuanchauict/redlineapp/releases/download/v#{version}/Redline-#{version}-universal.dmg"
   name "Redline"
   desc "Markdown reader that marks what changed since you last read"
   homepage "https://redline.pages.dev/"
