@@ -1,15 +1,15 @@
 cask "bento" do
-  version "0.2.0"
-  sha256 "cbaf7f0eb27dd8f64bc3b31e38dc9e5761ebcd922fbd616b69681d93a17024ae"
+  version "0.3.0"
+  sha256 "18a59887f0acff1fc4f240074a9264c30df5f86313100ab2bea7c5e16f039d09"
 
-  url "https://github.com/tuanchauict/bento/releases/download/v#{version}/OhMyWindows-#{version}.zip"
-  name "Oh my windows"
+  url "https://github.com/tuanchauict/bento/releases/download/v#{version}/Bento-#{version}.zip"
+  name "Bento"
   desc "Window switcher that saves groups of windows as workspaces"
   homepage "https://github.com/tuanchauict/bento"
 
   depends_on macos: ">= :sonoma"
 
-  app "Oh my windows.app"
+  app "Bento.app"
 
   uninstall quit: "org.iamtuna.WindowPair"
 
@@ -20,7 +20,7 @@ cask "bento" do
   ]
 
   caveats <<~EOS
-    Oh my windows needs Accessibility access: System Settings > Privacy & Security > Accessibility.
+    Bento needs Accessibility access: System Settings > Privacy & Security > Accessibility.
     Window previews also need Screen Recording. Without it the switchers show app icons.
   EOS
 end
