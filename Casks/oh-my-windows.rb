@@ -1,6 +1,6 @@
 cask "oh-my-windows" do
-  version "0.1.0"
-  sha256 "90ca57295030cb813ddb0f7cad6e691b1cee9a6b0dea389fd4ce3f68edf0f11a"
+  version "0.2.0"
+  sha256 "cbaf7f0eb27dd8f64bc3b31e38dc9e5761ebcd922fbd616b69681d93a17024ae"
 
   url "https://github.com/tuanchauict/oh-my-windows/releases/download/v#{version}/OhMyWindows-#{version}.zip"
   name "Oh my windows"
