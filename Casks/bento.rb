@@ -1,6 +1,6 @@
 cask "bento" do
-  version "0.3.0"
-  sha256 "18a59887f0acff1fc4f240074a9264c30df5f86313100ab2bea7c5e16f039d09"
+  version "1.0.0"
+  sha256 "ee1b76e5d74b5dab155a97d7de6af3531e4943c21ebef92deb783c591d4a39d0"
 
   url "https://github.com/tuanchauict/bento/releases/download/v#{version}/Bento-#{version}.zip"
   name "Bento"
@@ -13,10 +13,11 @@ cask "bento" do
 
   uninstall quit: "org.iamtuna.WindowPair"
 
-  # The folders keep the app's first name, Window Pair.
+  # The folders keep the app's first name, Window Pair. The preferences hold when updates were last checked.
   zap trash: [
     "~/Library/Application Support/WindowPair",
     "~/Library/Caches/org.iamtuna.WindowPair",
+    "~/Library/Preferences/org.iamtuna.WindowPair.plist",
   ]
 
   caveats <<~EOS
