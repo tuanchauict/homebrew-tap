@@ -1,6 +1,6 @@
 cask "redline" do
-  version "0.8.0"
-  sha256 "6a9fced379dd0225bc9ad5ed6eb6a6c9dc20009502aa3d11724c21450b5cf180"
+  version "0.9.0"
+  sha256 "c9f2377b0ebb665456fe8975e911cfbc63c2a3b0c173ed184d29c44918045843"
 
   url "https://github.com/tuanchauict/redlineapp/releases/download/v#{version}/Redline-#{version}-universal.dmg"
   name "Redline"
