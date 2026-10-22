@@ -1,6 +1,6 @@
 cask "bento" do
-  version "1.0.1"
-  sha256 "0e831a49f448294c7ffaa15d87e86f13c9a5273c89b0c5b75946a00d8b2ccf70"
+  version "1.1.0"
+  sha256 "21e6b1d391778977da68be7838a3764beba0a4d5023605f7f6a7a732ac0f0c12"
 
   url "https://github.com/tuanchauict/bento/releases/download/v#{version}/Bento-#{version}.zip"
   name "Bento"
